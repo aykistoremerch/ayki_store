@@ -11,6 +11,10 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Informations manquantes" }, { status: 400 });
     }
 
+    if (!db) {
+      return NextResponse.json({ error: "Base de données non configurée" }, { status: 503 });
+    }
+
     const [order] = await db
       .insert(orders)
       .values({
@@ -36,6 +40,9 @@ export async function POST(req: NextRequest) {
 
 export async function GET() {
   try {
+    if (!db) {
+      return NextResponse.json([], { status: 200 });
+    }
     const allOrders = await db.select().from(orders);
     return NextResponse.json(allOrders);
   } catch (error) {

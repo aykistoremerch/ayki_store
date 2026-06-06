@@ -20,7 +20,7 @@ export const products: Product[] = [
     name: "Robe Blanche Fleuri",
     description:
       "Robe blanche fleurie au style délicat et élégant. Tissu léger et fluide, parfaite pour les journées ensoleillées et les sorties. Coupe flatteuse et finitions soignées.",
-    price: 74.9,
+    price: 29.9,
     category: "femme",
     subcategory: "robes",
     imageUrl: "/images/ChatGPT Image 6 juin 2026, 19_19_06.png",

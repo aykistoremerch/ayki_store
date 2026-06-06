@@ -10,6 +10,10 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Email invalide" }, { status: 400 });
     }
 
+    if (!db) {
+      return NextResponse.json({ error: "Base de données non configurée" }, { status: 503 });
+    }
+
     await db
       .insert(subscribers)
       .values({ email })
