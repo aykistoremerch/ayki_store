@@ -34,6 +34,40 @@ export const products: Product[] = [
     isNew: true,
     inStock: true,
   },
+    {
+    id: 5,
+    name: "Short chino  ",
+    description: "Short chino en coton stretch confortable. Coupe droite classique avec ceinture élastiquée. Parfait pour les journées chaudes en ville ou à la plage.",
+    price: 54.90,
+    category: "homme",
+    subcategory: "shorts",
+    imageUrl: "/images/27371621_58032575_1000.webp",
+    images: [
+      "/images/27371621_58032575_1000.webp",
+      "/images/27371621_58032586_300.webp",
+      "/images/27371621_58032594_1000.webp",
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Beige", "Blanc", "Marine"],
+    isNew: false,
+    inStock: true,
+  },
+  {
+    id: 6,
+    name: "short versace",
+    description: "Short sportswear en tissu technique respirant. Idéal pour le sport et les activités en plein air. Séchage rapide et grande liberté de mouvement.",
+    price: 49.90,
+    category: "homme",
+    subcategory: "shorts",
+    imageUrl: "/images/30742902_59700327_1000.webp",
+    images: [
+      "/images/30742902_59700345_1000.webp","/images/30742902_59700345_1000.webp","/images/330742902_59700375_1000.webp"
+    ],
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["Noir", "Gris", "Marine"],
+    isNew: false,
+    inStock: true,
+  },
   {
     id: 1,
     name: "T-Shirt Essentiel Blanc",
@@ -86,40 +120,8 @@ export const products: Product[] = [
     isNew: true,
     inStock: true,
   },
-  {
-    id: 5,
-    name: "Short chino  ",
-    description: "Short chino en coton stretch confortable. Coupe droite classique avec ceinture élastiquée. Parfait pour les journées chaudes en ville ou à la plage.",
-    price: 54.90,
-    category: "homme",
-    subcategory: "shorts",
-    imageUrl: "/images/27371621_58032575_1000.webp",
-    images: [
-      "/images/27371621_58032575_1000.webp",
-      "/images/27371621_58032586_300.webp",
-      "/images/27371621_58032594_1000.webp",
-    ],
-    sizes: ["S", "M", "L", "XL"],
-    colors: ["Beige", "Blanc", "Marine"],
-    isNew: false,
-    inStock: true,
-  },
-  {
-    id: 6,
-    name: "short versace",
-    description: "Short sportswear en tissu technique respirant. Idéal pour le sport et les activités en plein air. Séchage rapide et grande liberté de mouvement.",
-    price: 49.90,
-    category: "homme",
-    subcategory: "shorts",
-    imageUrl: "/images/30742902_59700327_1000.webp",
-    images: [
-      "/images/30742902_59700345_1000.webp","/images/30742902_59700345_1000.webp","/images/330742902_59700375_1000.webp"
-    ],
-    sizes: ["S", "M", "L", "XL"],
-    colors: ["Noir", "Gris", "Marine"],
-    isNew: false,
-    inStock: true,
-  },
+
+  
   // FEMME - Robes
   {
     id: 7,
