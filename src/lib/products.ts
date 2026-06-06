@@ -68,22 +68,7 @@ export const products: Product[] = [
     isNew: true,
     inStock: true,
   },
-  {
-    id: 3,
-    name: "T-Shirt Oversize Minimal",
-    description: "T-shirt oversize tendance en jersey doux. Coupe décontractée pour un style urbain moderne. Parfait avec un jean slim ou un short.",
-    price: 49.90,
-    category: "homme",
-    subcategory: "t-shirts",
-    imageUrl: "https://images.pexels.com/photos/14668123/pexels-photo-14668123.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-    images: [
-      "https://images.pexels.com/photos/14668123/pexels-photo-14668123.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
-    ],
-    sizes: ["S", "M", "L", "XL"],
-    colors: ["Beige", "Blanc", "Noir"],
-    isNew: false,
-    inStock: true,
-  },
+  
   // HOMME - Shorts
   {
     id: 4,
@@ -103,14 +88,16 @@ export const products: Product[] = [
   },
   {
     id: 5,
-    name: "Short Chino Premium",
+    name: "Short chino  ",
     description: "Short chino en coton stretch confortable. Coupe droite classique avec ceinture élastiquée. Parfait pour les journées chaudes en ville ou à la plage.",
     price: 54.90,
     category: "homme",
     subcategory: "shorts",
-    imageUrl: "https://images.pexels.com/photos/15766142/pexels-photo-15766142.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+    imageUrl: "/images/27371621_58032575_1000.webp",
     images: [
-      "https://images.pexels.com/photos/15766142/pexels-photo-15766142.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "/images/27371621_58032575_1000.webp",
+      "/images/27371621_58032586_300.webp",
+      "/images/27371621_58032594_1000.webp",
     ],
     sizes: ["S", "M", "L", "XL"],
     colors: ["Beige", "Blanc", "Marine"],
@@ -119,14 +106,14 @@ export const products: Product[] = [
   },
   {
     id: 6,
-    name: "Short Sport Tech",
+    name: "short versace",
     description: "Short sportswear en tissu technique respirant. Idéal pour le sport et les activités en plein air. Séchage rapide et grande liberté de mouvement.",
     price: 49.90,
     category: "homme",
     subcategory: "shorts",
-    imageUrl: "https://images.pexels.com/photos/15870230/pexels-photo-15870230.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+    imageUrl: "/images/30742902_59700327_1000.webp",
     images: [
-      "https://images.pexels.com/photos/15870230/pexels-photo-15870230.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "/images/30742902_59700345_1000.webp","/images/30742902_59700345_1000.webp","/images/330742902_59700375_1000.webp"
     ],
     sizes: ["S", "M", "L", "XL"],
     colors: ["Noir", "Gris", "Marine"],
